@@ -1,0 +1,14 @@
+.profile {
+  display: flex;
+  margin-top: 20px;
+}
+.profile-wrapper {
+  background-color: #a0c4e4;
+}
+.profile-info {
+  margin-left: 25px;
+}
+.view-more {
+  margin-right: 20px;
+  font-style: italic;
+}
