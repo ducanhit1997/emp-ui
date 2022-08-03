@@ -15,3 +15,14 @@
 .text-item {
   margin-left: 40%;
 }
+.title {
+  color: #00b0f0;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 60px;
+}
+.icon-person-info {
+  width: 70px;
+  height: 70px;
+  padding-top: 7px;
+}
