@@ -26,3 +26,12 @@
   height: 70px;
   padding-top: 7px;
 }
+@media only screen and (min-width: 720px){
+  .person-info {
+    margin-left: 40%;
+  }
+  .basic-info {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
