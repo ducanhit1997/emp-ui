@@ -62,6 +62,7 @@
   }
   .reason-input {
     width: 100%;
+    border-color: #ddebf7;
   }
   .reason-button {
     padding: 10px;
@@ -92,14 +93,14 @@
     margin-left: 10px;
   }
   .table-leave {
-    width: 100%;
-    margin: 10px;
+    margin-left: 25px;
   }
   .reason {
     padding: 10px;
   }
   .reason-input {
     width: 100%;
+    border-color: #ddebf7;
   }
   .reason-button {
     padding: 10px;
