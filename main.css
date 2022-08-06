@@ -35,3 +35,83 @@
     margin-right: 35%;
   }
 }
+@media only screen and (min-width: 720px){
+  .title-leave {
+    background-color: #00b0f0;
+    color: #fff;
+    padding: 10px;
+  }
+  .title-name {
+    width: 100%;
+    margin-left: 25%;
+  }
+  .leave-box {
+    color: #00b0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  .wrapper-leave {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  .table-leave {
+    width: 100%;
+  }
+  .reason {
+    padding: 10px;
+  }
+  .reason-input {
+    width: 100%;
+  }
+  .reason-button {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .btn-reason {
+    background-color: #ddebf7;
+    color: #6c9ed5;
+    padding: 5px;
+    border: none;
+  }
+}
+@media only screen and (max-width: 719px){
+  .title-leave {
+    background-color: #00b0f0;
+    color: #fff;
+    padding: 10px;
+  }
+  .title-name {
+    width: 100%;
+    margin-left: 25%;
+  }
+  .leave-box {
+    color: #00b0f0;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .table-leave {
+    width: 100%;
+    margin: 10px;
+  }
+  .reason {
+    padding: 10px;
+  }
+  .reason-input {
+    width: 100%;
+  }
+  .reason-button {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .btn-reason {
+    background-color: #ddebf7;
+    color: #6c9ed5;
+    padding: 5px;
+    border: none;
+  }
+}
+
+
