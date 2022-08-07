@@ -114,5 +114,10 @@
     border: none;
   }
 }
+.notify-request {
+  padding: 10px 10px 40px 10px;
+  border: 1px solid #ddebf7;
+  margin: 20px;
+}
 
 
