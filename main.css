@@ -119,5 +119,16 @@
   border: 1px solid #ddebf7;
   margin: 20px;
 }
+.tab1 {
+  border-bottom: 2px solid #00b0f0;
+  color: #00b0f0;
+}
+.tab2 {
+  color: #00b0f0;
+}
+.tr-table {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
 
 
