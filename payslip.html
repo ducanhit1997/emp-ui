@@ -11,6 +11,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src='main.js'></script>
 </head>
 
@@ -59,21 +60,66 @@
       <table class="table p-5">
         <tbody class="body-table">
           <tr class="tr-table">
-            <th style="color: #00b0f0;">Thu nhập</th>
+            <td style="color: #00b0f0;">Thu nhập</td>
             <td></td>
           </tr>
           <tr class="tr-table table-secondary">
-            <th scope="row">Lương cố định</th>
+            <td scope="row">Lương cố định (1)</td>
             <td>7.000.000</td>
           </tr>
           <tr class="tr-table">
-            <th scope="row">Lương kết quả</th>
+            <td scope="row">Lương kết quả (2)</td>
             <td>3.000.000</td>
+          </tr>
+          <tr class="tr-table table-secondary">
+            <td scope="row"></td>
+            <td></td>
+          </tr>
+          <tr class="tr-table">
+            <td scope="row">Phụ cấp</td>
+            <td></td>
+          </tr>
+          <tr class="tr-table table-secondary">
+            <td scope="row" style="padding-left: 25px;">Xăng xe</td>
+            <td>3.000.000</td>
+          </tr>
+          <tr class="tr-table">
+            <td scope="row" style="padding-left: 25px;">Điện thoại</td>
+            <td>3.000.000</td>
+          </tr>
+          <tr class="tr-table">
+            <td scope="row">
+              <p class="fw-bold">Tổng thu nhập</p>
+              <p>(1) + (2) + (3)</p>
+            </td>
+            <td class="pt-5 fw-bold">3.000.000</td>
           </tr>
         </tbody>
       </table>
-      <div>
+      <div class="d-flex" style="border-bottom: 1px solid rgb(179, 168, 168);">
+        <div style="color: #00b0f0;" class="fw-bold">Lương net</div>
+        <div class="fw-bold ms-auto">17,400,000</div>
+      </div>
+      <div class="ms-auto p-2 bd-highlight mt-5" type="button" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#myModal">
         <p style="float: right; color: red; font-style: italic; text-decoration: underline;" class="me-3">Gửi ý kiến</p>
+      </div>
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Ý kiến</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <div>Nội dung</div>
+              <textarea class="reason-input" rows="4"></textarea>
+            </div>
+            <div class="modal-footer">
+              <button class="btn-reason" data-bs-dismiss="modal">Gửi</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 </body>
