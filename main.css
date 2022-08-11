@@ -130,5 +130,15 @@
   border-left: 1px solid #dee2e6;
   border-right: 1px solid #dee2e6;
 }
+.inner-addon {
+  position: relative;
+}
 
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.right-addon .glyphicon { right: 10px;}
 
